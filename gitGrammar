@@ -52,8 +52,8 @@ git push -u orgin <remote_branch> 提交时关联远程分支
 git branch -vv 查看分支关联关系
 ## 其他操作
 git config --list 查看已设配置
-git config --global usr.email 设置邮箱（要与github邮箱匹配，否则push时显示的账号有误）
-
+git config --global usr.email <your_email> 设置邮箱（要与github邮箱匹配，否则push时显示的账号有误）
+git config --dlobal usr.name <your_account_name> 同上
 
 基本操作：
 远程已有仓库，则克隆，修改文件内容后，关联自己的远程仓库，上传
