@@ -50,6 +50,9 @@ git pull 直接拉取与当前分支关联的远程分支
 git checkout -b <local_branch> orgin/<remote_branch> 切换分支时关联远程分支
 git push -u orgin <remote_branch> 提交时关联远程分支
 git branch -vv 查看分支关联关系
+## 其他操作
+git config --list 查看已设配置
+git config --global usr.email 设置邮箱（要与github邮箱匹配，否则push时显示的账号有误）
 
 
 基本操作：
