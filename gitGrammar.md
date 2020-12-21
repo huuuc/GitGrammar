@@ -47,6 +47,7 @@ git push origin <branch_name> 默认远程仓库若没有该分支，则需要�
 git pull origin <remote_branch> 拉取一个远程分支到当前分支
 git pull origin <remote_branch>:<local_branch> 拉取一个远程分支到本地分支
 git pull 直接拉取与当前分支关联的远程分支
+注：git pull 自带fetch和merge效果
 git checkout -b <local_branch> orgin/<remote_branch> 切换分支时关联远程分支
 git push -u orgin <remote_branch> 提交时关联远程分支
 git branch -vv 查看分支关联关系
